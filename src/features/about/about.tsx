@@ -1,6 +1,6 @@
 "use client";
 
-import { Card } from "./UI/card";
+import { Card } from "../../shared/UI/card";
 import { Code2, Users, Lightbulb, Target } from "lucide-react";
 
 const highlights = [

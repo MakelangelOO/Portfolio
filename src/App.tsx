@@ -1,10 +1,10 @@
-import { Hero } from "./components/hero";
-import { About } from "./components/about";
-import { Skills } from "./components/skills";
-import { Experience } from "./components/experience";
-import { Education } from "./components/education";
-import { Contact } from "./components/contact";
-import { Navigation } from "./components/navigation";
+import { Hero } from "./shared/components/hero";
+import { About } from "./features/about/about";
+import { Skills } from "./features/skills/skills";
+import { Experience } from "./features/experience/experience";
+import { Education } from "./features/education/education";
+import { Contact } from "./features/contact/contact";
+import { Navigation } from "./shared/components/navigation";
 
 function App() {
   return (

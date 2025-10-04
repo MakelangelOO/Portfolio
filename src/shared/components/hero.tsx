@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowDown, GithubIcon, LinkedinIcon, Mail } from "lucide-react";
-import { Button } from "./UI/button";
+import { Button } from "../UI/button";
 
 export function Hero() {
   return (

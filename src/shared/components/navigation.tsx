@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { Button } from "./UI/button";
+import { Button } from "../UI/button";
 
 const navItems = [
   { name: "Inicio", href: "#hero" },

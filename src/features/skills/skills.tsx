@@ -1,7 +1,7 @@
 "use client";
 
-import { Card } from "./UI/card";
-import { Badge } from "./UI/badge";
+import { Card } from "../../shared/UI/card";
+import { Badge } from "../../shared/UI/badge";
 
 const skillCategories = [
   {

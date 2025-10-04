@@ -1,7 +1,7 @@
 "use client";
 
-import { Card } from "./UI/card";
-import { Button } from "./UI/button";
+import { Card } from "../../shared/UI/card";
+import { Button } from "../../shared/UI/button";
 import { Mail, Linkedin, Github, MapPin, Phone } from "lucide-react";
 
 const contactMethods = [

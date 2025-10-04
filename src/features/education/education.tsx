@@ -1,6 +1,6 @@
 "use client";
 
-import { Card } from "./UI/card";
+import { Card } from "../../shared/UI/card";
 import { GraduationCap, Award, BookOpen } from "lucide-react";
 
 const education = [
