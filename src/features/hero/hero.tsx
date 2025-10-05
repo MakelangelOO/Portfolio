@@ -1,13 +1,15 @@
 "use client";
 
 import { ArrowDown, GithubIcon, LinkedinIcon, Mail } from "lucide-react";
-import { Button } from "../UI/button";
+import { Button } from "../../shared/UI/button";
+import { Navigation } from "../../shared/components/navigation";
 
 export function Hero() {
   return (
     <section
       id="hero"
       className="min-h-screen flex items-center justify-center pt-16">
+      <Navigation />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in-up">
           <div className="space-y-4">

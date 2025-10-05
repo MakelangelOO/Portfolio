@@ -2,6 +2,7 @@
 
 import { Card } from "../../shared/UI/card";
 import { Code2, Users, Lightbulb, Target } from "lucide-react";
+import { Navigation } from "../../shared/components/navigation";
 
 const highlights = [
   {
@@ -29,6 +30,7 @@ const highlights = [
 export function About() {
   return (
     <section id="about" className="py-20 sm:py-32">
+      <Navigation />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="space-y-4 text-center">

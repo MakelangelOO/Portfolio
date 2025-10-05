@@ -2,6 +2,7 @@
 
 import { Card } from "../../shared/UI/card";
 import { Badge } from "../../shared/UI/badge";
+import { Navigation } from "../../shared/components/navigation";
 
 const skillCategories = [
   {
@@ -59,6 +60,7 @@ const skillCategories = [
 export function Skills() {
   return (
     <section id="skills" className="py-20 sm:py-32 bg-muted/30">
+      <Navigation />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto space-y-12">
           <div className="space-y-4 text-center">

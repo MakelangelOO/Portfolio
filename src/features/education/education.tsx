@@ -2,6 +2,7 @@
 
 import { Card } from "../../shared/UI/card";
 import { GraduationCap, Award, BookOpen } from "lucide-react";
+import { Navigation } from "../../shared/components/navigation";
 
 const education = [
   {
@@ -33,6 +34,7 @@ const education = [
 export function Education() {
   return (
     <section id="education" className="py-20 sm:py-32 bg-muted/30">
+      <Navigation />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="space-y-4 text-center">

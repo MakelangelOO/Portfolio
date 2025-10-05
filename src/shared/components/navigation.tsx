@@ -5,12 +5,12 @@ import { Menu, X } from "lucide-react";
 import { Button } from "../UI/button";
 
 const navItems = [
-  { name: "Inicio", href: "#hero" },
-  { name: "Sobre Mí", href: "#about" },
-  { name: "Habilidades", href: "#skills" },
-  { name: "Experiencia", href: "#experience" },
-  { name: "Educación", href: "#education" },
-  { name: "Contacto", href: "#contact" },
+  { name: "Inicio", href: "/" },
+  { name: "Sobre Mí", href: "/about" },
+  { name: "Habilidades", href: "/skills" },
+  { name: "Experiencia", href: "/experience" },
+  { name: "Educación", href: "/education" },
+  { name: "Contacto", href: "/contact" },
 ];
 
 export function Navigation() {
